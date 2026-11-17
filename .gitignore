@@ -1,0 +1,35 @@
+# Node / PWA
+node_modules/
+dist/
+dist-ssr/
+.vite/
+*.tsbuildinfo
+web/public/sql-wasm.wasm
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Android / Gradle
+.gradle/
+build/
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+*.iml
+.idea/
+captures/
+.externalNativeBuild/
+.cxx/
+*.keystore
+*.jks
+*.apk
+*.aab
+
+# OS / Editor / Test artifacts
+.DS_Store
+Thumbs.db
+.playwright-cli/
+coverage/
+__pycache__/

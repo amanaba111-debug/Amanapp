@@ -1,0 +1,118 @@
+{
+  "id": "chess",
+  "title": "Chess 4-Week",
+  "subtitle": "Sharp tactics, checkmate patterns & calm endgames",
+  "dailyMinutes": 15,
+  "weeks": 4,
+  "sizeLabel": "4.6 MB pack",
+  "cards": [
+    {
+      "id": "chess-w1-1",
+      "week": 1,
+      "category": "Week 1 · Opening Triad",
+      "front": "What are the 3 golden rules of the first 10 moves?",
+      "hint": "Center · Pieces · King",
+      "back": "1) Claim the center (e4/d4), 2) Develop knights & bishops once toward active squares, 3) Castle early to connect rooks.",
+      "example": "Before pushing a flank pawn or moving the same piece twice, ask: 'Are all my minor pieces in the game and is my king safe?'"
+    },
+    {
+      "id": "chess-w1-2",
+      "week": 1,
+      "category": "Week 1 · Tactical Fork",
+      "front": "How do you spot a Knight Fork in under 3 seconds?",
+      "hint": "Color geometry: knights always alternate square colors",
+      "back": "Two enemy pieces can only be forked by a knight if they stand on the SAME color square! Look at opposite-colored jump squares between them.",
+      "example": "Classic target: Black King on e8 and Rook on a8 (both dark squares) → Nc7+ (light square) wins the exchange."
+    },
+    {
+      "id": "chess-w1-3",
+      "week": 1,
+      "category": "Week 1 · Pins",
+      "front": "You pinned an enemy knight to their queen with Bg5. What is the master rule next?",
+      "hint": "Don't rush to capture — pile up!",
+      "back": "A pinned piece can't flee: add more attackers (especially a pawn or knight) rather than trading it off immediately.",
+      "example": "Absolute pin (to the King) = illegal to move. Relative pin (to the Queen) = legal, so always watch for desperado checks!"
+    },
+    {
+      "id": "chess-w2-1",
+      "week": 2,
+      "category": "Week 2 · Calculation",
+      "front": "What is the CCT checklist before every single move?",
+      "hint": "Calculate the most forcing moves first — for BOTH sides",
+      "back": "Checks → Captures → Threats. Scan all three for yourself, then scan your opponent's CCT replies before lifting a piece.",
+      "example": "90% of club blunders vanish the moment CCT becomes an automatic 5-second breath before moving."
+    },
+    {
+      "id": "chess-w2-2",
+      "week": 2,
+      "category": "Week 2 · Discovered Attack",
+      "front": "What makes a Discovered Check the deadliest tactic on the board?",
+      "hint": "The moving piece gets a 'free turn'",
+      "back": "Because the opponent MUST answer the uncovered check, your stepping piece can capture an undefended piece—even while standing en prise.",
+      "example": "Double check is even stronger: neither blocking nor capturing works; the enemy king is forced to move."
+    },
+    {
+      "id": "chess-w2-3",
+      "week": 2,
+      "category": "Week 2 · Removing the Guard",
+      "front": "An enemy knight on f6 is the sole defender of both h7 (mate) and d5. What motif strikes?",
+      "hint": "Overloaded defender / deflection",
+      "back": "Capture or sacrifice against one duty (e.g., Bxf6 or Nxd5) so the overloaded defender drops the other critical square.",
+      "example": "Whenever one piece guards two vital squares, treat it as uninsured."
+    },
+    {
+      "id": "chess-w3-1",
+      "week": 3,
+      "category": "Week 3 · Mating Pattern",
+      "front": "Smothered Mate: Queen on b3, Knight on g5, Black King castled on g8 (Rf8, pawns g7/h7). Find the finish!",
+      "hint": "Kh8 → Nf7+ → Kg8 → Nh6++ → Kh8 → Qg8+!",
+      "back": "1. Nf7+ Kg8 2. Nh6+ Kh8 (double check!) 3. Qg8+! Rxg8 4. Nf7# — Philidor's Legacy.",
+      "example": "Rxg8 is forced because the knight covers f7, sealing Black's own king inside a cage."
+    },
+    {
+      "id": "chess-w3-2",
+      "week": 3,
+      "category": "Week 3 · Strategy",
+      "front": "What is a 'Knight Outpost', and what makes it permanent?",
+      "hint": "Central square (d5/e5/c5/f5) + enemy pawn structure",
+      "back": "A square in enemy territory anchored by your pawn that NO enemy pawn can ever attack (typically in front of a backward pawn).",
+      "example": "A knight firmly planted on the 6th rank is often worth as much as a rook."
+    },
+    {
+      "id": "chess-w3-3",
+      "week": 3,
+      "category": "Week 3 · Rooks",
+      "front": "Why are doubled rooks on the 7th rank called 'Pigs on the 7th'?",
+      "hint": "Unmoved enemy pawns + trapped enemy king",
+      "back": "They devour base pawns laterally while trapping the opposing king on the back rank, setting up unstoppable mating nets or perpetuals.",
+      "example": "Step 1: Seize the open file. Step 2: Double rooks. Step 3: Penetrate to the 7th rank."
+    },
+    {
+      "id": "chess-w4-1",
+      "week": 4,
+      "category": "Week 4 · King & Pawn Endgame",
+      "front": "What is Direct Opposition in King + Pawn vs. King endgames?",
+      "hint": "One empty square directly between the two kings, NOT your turn",
+      "back": "Kings face each other with one square between them; the side NOT to move holds the opposition, forcing the other king to yield ground.",
+      "example": "Key rule: get your KING in front of your pawn first (e.g., pawn e4, King e6) to escort promotion."
+    },
+    {
+      "id": "chess-w4-2",
+      "week": 4,
+      "category": "Week 4 · Rule of the Square",
+      "front": "Can the defending king catch a runaway passed pawn without counting move by move?",
+      "hint": "Draw a diagonal from the pawn to the promotion rank",
+      "back": "Visualize a square from the pawn to the 8th rank. If the enemy king stands inside—or can step inside on its move—it catches the pawn.",
+      "example": "Watch out: a pawn on its starting 2nd rank shrinks the square by one rank thanks to its double-step!"
+    },
+    {
+      "id": "chess-w4-3",
+      "week": 4,
+      "category": "Week 4 · Rook Endgames",
+      "front": "Lucena vs. Philidor: the single most important principle of all rook endgames?",
+      "hint": "Where does a rook belong relative to a passed pawn?",
+      "back": "Rooks belong BEHIND passed pawns—both your own and your opponent's. Activity beats a passive extra pawn.",
+      "example": "Lucena wins by 'building a bridge' (shielding your king from checks with your rook on the 4th/5th rank)."
+    }
+  ]
+}

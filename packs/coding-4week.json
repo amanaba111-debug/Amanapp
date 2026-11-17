@@ -1,0 +1,118 @@
+{
+  "id": "coding",
+  "title": "Coding 4-Week",
+  "subtitle": "Algorithms, clean patterns & systems intuition",
+  "dailyMinutes": 15,
+  "weeks": 4,
+  "sizeLabel": "3.8 MB pack",
+  "cards": [
+    {
+      "id": "code-w1-1",
+      "week": 1,
+      "category": "Week 1 · Complexity",
+      "front": "Why does replacing a nested scan with a Hash Map drop Two-Sum from O(n²) to O(n)?",
+      "hint": "Trade O(n) auxiliary memory for O(1) complement lookup",
+      "back": "Each element x checks `seen.has(target - x)` in average O(1) time instead of scanning the remaining n elements.",
+      "example": "for (let i = 0; i < nums.length; i++) {\n  const need = target - nums[i];\n  if (seen.has(need)) return [seen.get(need), i];\n  seen.set(nums[i], i);\n}"
+    },
+    {
+      "id": "code-w1-2",
+      "week": 1,
+      "category": "Week 1 · Sliding Window",
+      "front": "When should you reach for the Sliding Window pattern?",
+      "hint": "Contiguous subarray/substring + monotonic constraint",
+      "back": "Whenever you need the longest, shortest, or optimal contiguous range in an array/string without re-scanning interior items.",
+      "example": "Expand `right` every step; shrink `left` in a `while` loop when the window violates the invariant. Each index enters and exits once → O(n)."
+    },
+    {
+      "id": "code-w1-3",
+      "week": 1,
+      "category": "Week 1 · Binary Search",
+      "front": "Binary search beyond sorted arrays: what is 'Binary Search on the Answer'?",
+      "hint": "Think monotonic predicate ok(mid): false, false, true, true",
+      "back": "If feasibility flips monotonically from false to true across [lo, hi], binary search finds the exact threshold in O(log R · cost(ok)).",
+      "example": "Use `mid = lo + Math.floor((hi - lo) / 2)` to prevent overflow and converge cleanly on the first `true`."
+    },
+    {
+      "id": "code-w2-1",
+      "week": 2,
+      "category": "Week 2 · Data Structures",
+      "front": "How do you maintain the top-K largest items in an unbounded stream?",
+      "hint": "Counter-intuitive: use a MIN-heap, not a max-heap",
+      "back": "Keep a min-heap of size K. The root is the K-th largest; push only when x > root and pop the smallest in O(log K).",
+      "example": "Time: O(n log K), Space: O(K) — dramatically faster than sorting the full stream O(n log n)."
+    },
+    {
+      "id": "code-w2-2",
+      "week": 2,
+      "category": "Week 2 · Graphs",
+      "front": "BFS vs. DFS vs. Dijkstra: which finds the shortest path?",
+      "hint": "Check whether edge weights exist and whether any are negative",
+      "back": "BFS for unweighted graphs O(V+E); Dijkstra (min-heap) for non-negative weights O((V+E) log V); DFS does not guarantee shortest paths.",
+      "example": "0-1 weighted graph shortcut: use a deque (0-1 BFS) in linear O(V+E) time."
+    },
+    {
+      "id": "code-w2-3",
+      "week": 2,
+      "category": "Week 2 · Dynamic Programming",
+      "front": "What are the 3 ingredients of every Dynamic Programming solution?",
+      "hint": "State · Transition · Base case",
+      "back": "1) Minimal state describing a subproblem, 2) Recurrence linking smaller states, 3) Base cases + topological evaluation order.",
+      "example": "Start with clean recursion + memoization; optimize to bottom-up rolling variables when `dp[i]` depends only on `dp[i-1]`."
+    },
+    {
+      "id": "code-w3-1",
+      "week": 3,
+      "category": "Week 3 · Clean Design",
+      "front": "What does 'Make illegal states unrepresentable' mean in practice?",
+      "hint": "Replace loose booleans/nullables with discriminated unions or sealed classes",
+      "back": "Encode domain states in the type system so contradictory flags (e.g., `loading=true` AND `error!=null`) cannot compile.",
+      "example": "Kotlin: `sealed interface UiState { object Loading; data class Ready(val data: T); data class Failed(val msg: String) }`"
+    },
+    {
+      "id": "code-w3-2",
+      "week": 3,
+      "category": "Week 3 · Concurrency",
+      "front": "What is Idempotency, and why do retryable APIs depend on it?",
+      "hint": "f(f(x)) = f(x) even after a network timeout",
+      "back": "An operation is idempotent if executing it multiple times with the same key produces the same side effect as executing it once.",
+      "example": "Attach a client-generated `Idempotency-Key` UUID so safe retries never double-charge or duplicate records."
+    },
+    {
+      "id": "code-w3-3",
+      "week": 3,
+      "category": "Week 3 · Async Flow",
+      "front": "Debounce vs. Throttle: when do you pick each?",
+      "hint": "Wait for silence vs. pace a steady heartbeat",
+      "back": "Debounce fires once after input pauses for N ms (search box). Throttle fires at most once every N ms (scroll, sensor sampling).",
+      "example": "MindLoop uses debounced writes for mood notes and throttled sampling for live accelerometer step detection."
+    },
+    {
+      "id": "code-w4-1",
+      "week": 4,
+      "category": "Week 4 · Databases",
+      "front": "Why does column order matter in a composite SQL index `(user_id, created_at)`?",
+      "hint": "Leftmost prefix rule in a B-Tree",
+      "back": "B-Trees sort by `user_id` first, then `created_at` within each user. Queries filtering only `created_at` cannot seek the prefix.",
+      "example": "Rule of thumb: put exact-equality columns first, then the range or `ORDER BY` column."
+    },
+    {
+      "id": "code-w4-2",
+      "week": 4,
+      "category": "Week 4 · Systems",
+      "front": "Why enable WAL (Write-Ahead Logging) mode in offline SQLite apps?",
+      "hint": "Readers don't block writers; writers don't block readers",
+      "back": "WAL appends changes to a sequential log file, allowing concurrent UI reads and fast atomic commits on mobile flash storage.",
+      "example": "Before exporting a single `.sqlite` backup file, run `PRAGMA wal_checkpoint(FULL)` to flush all pages cleanly."
+    },
+    {
+      "id": "code-w4-3",
+      "week": 4,
+      "category": "Week 4 · Resilience",
+      "front": "Why add random jitter to exponential backoff?",
+      "hint": "Prevent the 'thundering herd' after an outage",
+      "back": "Without jitter, thousands of clients synchronize their retry intervals and hammer the recovering service at the exact same millisecond.",
+      "example": "delay = randomBetween(0, Math.min(capMs, baseMs * 2 ** attempt))"
+    }
+  ]
+}

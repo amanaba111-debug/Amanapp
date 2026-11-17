@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MindLoop</string>
+    <string name="app_tagline">Grow calm. Grow smart. Daily.</string>
+    <string name="qs_reset_label">RESET 4-7-8</string>
+    <string name="widget_ring_label">MindLoop Ring (2×1)</string>
+    <string name="widget_ring_desc">See today\'s Grow &amp; Calm progress at a glance.</string>
+    <string name="widget_breathe_label">Breathe (1×1)</string>
+    <string name="widget_breathe_desc">Tap for an instant 60-second 4-7-8 breathing overlay.</string>
+    <string name="shortcut_breathe_short">Breathe</string>
+    <string name="shortcut_breathe_long">Instant 4-7-8 Breath</string>
+    <string name="shortcut_focus_short">FOCUS</string>
+    <string name="shortcut_focus_long">Start 25-min FOCUS</string>
+    <string name="shortcut_scan_short">Body-Scan</string>
+    <string name="shortcut_scan_long">Evening Body-Scan</string>
+</resources>

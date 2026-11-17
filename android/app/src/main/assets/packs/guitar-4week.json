@@ -1,0 +1,118 @@
+{
+  "id": "guitar",
+  "title": "Guitar 4-Week",
+  "subtitle": "Clean chords, natural groove & fretboard freedom",
+  "dailyMinutes": 15,
+  "weeks": 4,
+  "sizeLabel": "4.9 MB pack",
+  "cards": [
+    {
+      "id": "gtr-w1-1",
+      "week": 1,
+      "category": "Week 1 · Open Chords",
+      "front": "Em → Am one-shape shift (EADGBE voicing)",
+      "hint": "Keep fingers 2 & 3 glued together and drop one string set",
+      "back": "Em: 0-2-2-0-0-0  →  Am: x-0-2-2-1-0 (drop pair from A/D to D/G, add index on B1).",
+      "example": "2-min drill: Set 60 BPM. Strum on beat 1, float shapes cleanly on beats 2-3-4. Keep fingertips right behind the fret wire."
+    },
+    {
+      "id": "gtr-w1-2",
+      "week": 1,
+      "category": "Week 1 · Anchor Fingers",
+      "front": "G → Cadd9 → Dsus4 with 2 locked anchor fingers",
+      "hint": "Ring finger on B3, pinky on high e3 NEVER lift!",
+      "back": "G: 3-2-0-0-3-3 · Cadd9: x-3-2-0-3-3 · Dsus4: x-x-0-2-3-3",
+      "example": "Unlocks hundreds of acoustic songs in Week 1 because your ring and pinky stay planted like a compass pivot."
+    },
+    {
+      "id": "gtr-w1-3",
+      "week": 1,
+      "category": "Week 1 · Clean Tone",
+      "front": "A string buzzes or sounds muted inside an open C (x-3-2-0-1-0). What's the 3-point fix?",
+      "hint": "Thumb · Knuckle arch · Fret distance",
+      "back": "1) Drop thumb to the middle-back of the neck, 2) Push wrist slightly forward so fingertips land vertically, 3) Slide right behind each fret.",
+      "example": "Arpeggiate strings one by one (A→D→G→B→e) to spot and celebrate every clear ringing note."
+    },
+    {
+      "id": "gtr-w2-1",
+      "week": 2,
+      "category": "Week 2 · Groove",
+      "front": "The Universal 'Island / Folk' Strum in 4/4 time",
+      "hint": "1   2 &   & 4 &  — never stop your strumming arm!",
+      "back": "D  -  D  U  -  U  D  U   (miss the strings on beat 3 downstroke, keep the pendulum swinging).",
+      "example": "Secret to effortless rhythm: your wrist is a continuous metronome; you simply choose which passes brush the strings."
+    },
+    {
+      "id": "gtr-w2-2",
+      "week": 2,
+      "category": "Week 2 · Dynamics",
+      "front": "How do you make a 3-chord song sound like a studio recording?",
+      "hint": "Bass/treble split + beats 2 & 4 accent",
+      "back": "Brush only the low bass strings on beat 1, then accent the bright top strings on beats 2 and 4.",
+      "example": "Add light palm muting (edge of picking palm resting on the bridge saddles) in the verse, then lift open for the chorus."
+    },
+    {
+      "id": "gtr-w2-3",
+      "week": 2,
+      "category": "Week 2 · Song Progression",
+      "front": "Play the I – V – vi – IV progression in the key of G",
+      "hint": "4 open chords you already know",
+      "back": "G  →  D  →  Em  →  C   (4 beats each, loop smoothly).",
+      "example": "Pop a capo on fret 2 and the exact same shapes sound in the bright key of A major."
+    },
+    {
+      "id": "gtr-w3-1",
+      "week": 3,
+      "category": "Week 3 · Fingerpicking",
+      "front": "Travis Picking foundation (P-I-M-A right-hand assignment)",
+      "hint": "Thumb owns low 3 strings; index=G, middle=B, ring=e",
+      "back": "Thumb alternates steady quarter notes (Bass-D-Bass-D) while index & middle pluck B and G in between: P - i - P - m.",
+      "example": "Loop slowly over C and Am with rainy ambient audio—one of the most meditative sounds on earth."
+    },
+    {
+      "id": "gtr-w3-2",
+      "week": 3,
+      "category": "Week 3 · Lead & Melody",
+      "front": "A Minor Pentatonic Box 1 (5th position)",
+      "hint": "One finger per fret from fret 5 to fret 8",
+      "back": "Low E: 5-8 · A: 5-7 · D: 5-7 · G: 5-7 · B: 5-8 · High e: 5-8  (roots on E5, D7, e5).",
+      "example": "Sing a tiny 3-note phrase, then find it inside the box—leave breathing space between phrases just like speech."
+    },
+    {
+      "id": "gtr-w3-3",
+      "week": 3,
+      "category": "Week 3 · Fretboard Map",
+      "front": "Name the natural notes on the Low E string without hesitating",
+      "hint": "Every pair is 2 frets apart EXCEPT E–F and B–C (1 fret!)",
+      "back": "0=E · 1=F · 3=G · 5=A · 7=B · 8=C · 10=D · 12=E",
+      "example": "Knowing the low E string automatically names every root-6 power chord, barre chord, and pentatonic key."
+    },
+    {
+      "id": "gtr-w4-1",
+      "week": 4,
+      "category": "Week 4 · F Major Unlock",
+      "front": "Effortless F Barre Chord (1-3-3-2-1-1) without hand cramps",
+      "hint": "Don't clamp with your thumb — use arm leverage and the bony side of your index",
+      "back": "Roll index finger 15° onto its firm thumb-side edge, pull gently back with your right forearm against the guitar body, relax thumb.",
+      "example": "Warm-up stepping stone: Fmaj7 (x-3-3-2-1-0) gives lush, dreamy color with zero barre fatigue."
+    },
+    {
+      "id": "gtr-w4-2",
+      "week": 4,
+      "category": "Week 4 · Expressive Touch",
+      "front": "Hammer-ons & Pull-offs inside open chords (folk embellishment)",
+      "hint": "Snap down briskly; flick slightly downward on release",
+      "back": "Strum Am (x-0-2-2-1-0), lift index to Asus2 (B0), then hammer briskly back onto B1 in rhythm.",
+      "example": "Also magical on D (hammer middle onto e2) and C (hammer middle onto D2)."
+    },
+    {
+      "id": "gtr-w4-3",
+      "week": 4,
+      "category": "Week 4 · Ear Training",
+      "front": "Major vs. Minor vs. Dominant 7th — hear the emotional color instantly",
+      "hint": "Compare A (x02220), Am (x02210), and A7 (x02020)",
+      "back": "Major = bright & resolved · Minor = introspective & warm · Dominant 7th = bluesy tension asking to resolve home (A7 → D).",
+      "example": "Close your eyes, strum slowly, feel the resonance in your chest—calm mind, musical ear."
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "id": "spanish",
+  "title": "Spanish 4-Week",
+  "subtitle": "Conversational fluency & travel confidence",
+  "dailyMinutes": 15,
+  "weeks": 4,
+  "sizeLabel": "4.2 MB pack",
+  "cards": [
+    {
+      "id": "es-w1-1",
+      "week": 1,
+      "category": "Week 1 · Greetings",
+      "front": "Buenos días, ¿cómo te va?",
+      "hint": "bweh-nohs DEE-ahs, KOH-moh teh bah",
+      "back": "Good morning, how's it going?",
+      "example": "Natural reply: «Muy bien, gracias, ¿y a ti?» — warmer and more natural than textbook «¿cómo estás?»."
+    },
+    {
+      "id": "es-w1-2",
+      "week": 1,
+      "category": "Week 1 · Café & Polite",
+      "front": "Me pones un café con leche, por favor.",
+      "hint": "meh POH-nehs oon kah-FEH kohn LEH-cheh",
+      "back": "Could I get a coffee with milk, please?",
+      "example": "In Spain & Latin America, «¿Me pones…?» or «Me regala…?» sounds native; avoid literal «Puedo tener»."
+    },
+    {
+      "id": "es-w1-3",
+      "week": 1,
+      "category": "Week 1 · Survival",
+      "front": "¿Puedes hablar un poco más despacio?",
+      "hint": "PWEH-dehs ah-BLAR oon POH-koh mahs dehs-PAH-syoh",
+      "back": "Can you speak a little more slowly?",
+      "example": "Pair with a smile and «Todavía estoy aprendiendo» (I'm still learning) to unlock instant patience."
+    },
+    {
+      "id": "es-w1-4",
+      "week": 1,
+      "category": "Week 1 · Essentials",
+      "front": "Ser vs. Estar: «Soy listo» vs. «Estoy listo»",
+      "hint": "Identity trait vs. current state",
+      "back": "Soy listo = I am clever · Estoy listo = I am ready",
+      "example": "Memory hook: SER is essence/identity; ESTAR is state/location («How you feel and where you are, always use the verb estar»)."
+    },
+    {
+      "id": "es-w1-5",
+      "week": 1,
+      "category": "Week 1 · Introductions",
+      "front": "Mucho gusto, me llamo… ¿De dónde eres?",
+      "hint": "MOO-choh GOOS-toh … deh DOHN-deh EH-rehs",
+      "back": "Nice to meet you, my name is… Where are you from?",
+      "example": "Answer with «Soy de… pero vivo en…» (I'm from… but I live in…)."
+    },
+    {
+      "id": "es-w2-1",
+      "week": 2,
+      "category": "Week 2 · Navigation",
+      "front": "Disculpa, ¿queda lejos la estación de metro?",
+      "hint": "dees-KOOL-pah, KEH-dah LEH-hohs",
+      "back": "Excuse me, is the metro station far from here?",
+      "example": "Reply cue: «A cinco minutos andando, todo recto» = 5 minutes walking, straight ahead."
+    },
+    {
+      "id": "es-w2-2",
+      "week": 2,
+      "category": "Week 2 · Dining",
+      "front": "¿Qué me recomiendas probar de aquí?",
+      "hint": "keh meh reh-koh-MYEHN-dahs proh-BAR",
+      "back": "What do you recommend I try here?",
+      "example": "Follow up at the end: «La cuenta, cuando puedas» (The check, whenever you can)."
+    },
+    {
+      "id": "es-w2-3",
+      "week": 2,
+      "category": "Week 2 · Plans",
+      "front": "¿Te apetece tomar algo esta tarde?",
+      "hint": "teh ah-peh-TEH-seh toh-MAR AHL-goh",
+      "back": "Do you feel like grabbing a drink/bite this afternoon?",
+      "example": "Reply: «¡Claro, me encantaría! ¿A qué hora quedamos?» (Sure, I'd love to! What time shall we meet?)."
+    },
+    {
+      "id": "es-w2-4",
+      "week": 2,
+      "category": "Week 2 · Shopping",
+      "front": "¿Se puede pagar con tarjeta o solo en efectivo?",
+      "hint": "tahr-HEH-tah · eh-fehk-TEE-boh",
+      "back": "Can I pay by card, or cash only?",
+      "example": "«Se puede + infinitive» is a superpower structure meaning 'Is it possible to…?'."
+    },
+    {
+      "id": "es-w2-5",
+      "week": 2,
+      "category": "Week 2 · Time",
+      "front": "Llevo dos semanas estudiando español.",
+      "hint": "Llevar + time + gerund (-ando/-iendo)",
+      "back": "I have been studying Spanish for two weeks.",
+      "example": "Example: «Llevo tres años viviendo aquí» = I've been living here for three years."
+    },
+    {
+      "id": "es-w3-1",
+      "week": 3,
+      "category": "Week 3 · Power Verbs",
+      "front": "Tengo ganas de viajar este verano.",
+      "hint": "Tener ganas de + infinitive",
+      "back": "I really feel like / am looking forward to traveling this summer.",
+      "example": "Short version: «¡Qué ganas!» = I can't wait!"
+    },
+    {
+      "id": "es-w3-2",
+      "week": 3,
+      "category": "Week 3 · Conversation Flow",
+      "front": "Depende · En realidad · Por cierto",
+      "hint": "3 high-frequency discourse connectors",
+      "back": "It depends · Actually / in fact · By the way",
+      "example": "Connectors buy your brain 2 calm seconds to assemble the next sentence naturally."
+    },
+    {
+      "id": "es-w3-3",
+      "week": 3,
+      "category": "Week 3 · Daily Routine",
+      "front": "Suelo despertarme a las siete y caminar.",
+      "hint": "Soler (o→ue) + infinitive",
+      "back": "I usually wake up at seven and take a walk.",
+      "example": "Instead of repeating «usualmente», natives use «suelo + verb»: «Suelo leer antes de dormir»."
+    },
+    {
+      "id": "es-w3-4",
+      "week": 3,
+      "category": "Week 3 · Problem Solving",
+      "front": "Se me olvidó la llave · No pasa nada.",
+      "hint": "Accidental 'se' + calming reassurance",
+      "back": "I accidentally forgot the key · No worries at all.",
+      "example": "Also works for «Se me cayó» (I dropped it) and «Se me hizo tarde» (I ended up running late)."
+    },
+    {
+      "id": "es-w4-1",
+      "week": 4,
+      "category": "Week 4 · Storytelling",
+      "front": "Ayer fui al mercado y encontré fruta increíble.",
+      "hint": "Preterite completed past actions",
+      "back": "Yesterday I went to the market and found incredible fruit.",
+      "example": "Note: «fui» is the past tense of both «ir» (to go) and «ser» (to be); context always makes it clear."
+    },
+    {
+      "id": "es-w4-2",
+      "week": 4,
+      "category": "Week 4 · Future Plans",
+      "front": "Mañana voy a practicar quince minutos más.",
+      "hint": "Ir + a + infinitive (near future)",
+      "back": "Tomorrow I'm going to practice fifteen more minutes.",
+      "example": "Works for 90% of future situations before you ever need formal future conjugations."
+    },
+    {
+      "id": "es-w4-3",
+      "week": 4,
+      "category": "Week 4 · Opinions & Subjunctive",
+      "front": "Espero que tengas un buen día.",
+      "hint": "Esperar que triggers present subjunctive (tener → tengas)",
+      "back": "I hope you have a great day.",
+      "example": "Same pattern: «Ojalá que haga buen tiempo» (Hopefully the weather is nice)."
+    },
+    {
+      "id": "es-w4-4",
+      "week": 4,
+      "category": "Week 4 · Native Idioms",
+      "front": "Poco a poco se llega lejos.",
+      "hint": "Literal: Little by little one arrives far",
+      "back": "Step by step, you go far — consistency beats intensity.",
+      "example": "The MindLoop philosophy in six Spanish words."
+    }
+  ]
+}

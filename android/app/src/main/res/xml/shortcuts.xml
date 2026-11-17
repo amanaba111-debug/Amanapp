@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_qs_reset"
+        android:shortcutId="instant_breathe"
+        android:shortcutLongLabel="@string/shortcut_breathe_long"
+        android:shortcutShortLabel="@string/shortcut_breathe_short">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="app.mindloop.widget.BreatheOverlayActivity"
+            android:targetPackage="app.mindloop" />
+    </shortcut>
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_qs_reset"
+        android:shortcutId="start_focus"
+        android:shortcutLongLabel="@string/shortcut_focus_long"
+        android:shortcutShortLabel="@string/shortcut_focus_short">
+        <intent
+            android:action="app.mindloop.ACTION_FOCUS"
+            android:targetClass="app.mindloop.MainActivity"
+            android:targetPackage="app.mindloop" />
+    </shortcut>
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_qs_reset"
+        android:shortcutId="evening_scan"
+        android:shortcutLongLabel="@string/shortcut_scan_long"
+        android:shortcutShortLabel="@string/shortcut_scan_short">
+        <intent
+            android:action="app.mindloop.ACTION_BODY_SCAN"
+            android:targetClass="app.mindloop.MainActivity"
+            android:targetPackage="app.mindloop" />
+    </shortcut>
+</shortcuts>

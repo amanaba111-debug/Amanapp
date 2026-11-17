@@ -1,0 +1,43 @@
+{
+  "name": "MindLoop",
+  "short_name": "MindLoop",
+  "description": "Grow calm. Grow smart. Daily. Two-tap daily focus, 4-week micro-lessons, and 4-7-8 calm.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0F1512",
+  "theme_color": "#0F1512",
+  "categories": ["health", "education", "productivity", "lifestyle"],
+  "icons": [
+    {
+      "src": "/icons/mindloop.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Breathe (1-min 4-7-8)",
+      "short_name": "Breathe",
+      "description": "Instant 60-second 4-7-8 calm reset",
+      "url": "/?action=reset",
+      "icons": [{ "src": "/icons/breathe.svg", "sizes": "any", "type": "image/svg+xml" }]
+    },
+    {
+      "name": "Start FOCUS (25 min)",
+      "short_name": "FOCUS",
+      "description": "25-minute Pomodoro + daily micro-lesson",
+      "url": "/?action=focus",
+      "icons": [{ "src": "/icons/mindloop.svg", "sizes": "any", "type": "image/svg+xml" }]
+    },
+    {
+      "name": "Evening Body-Scan",
+      "short_name": "Body-Scan",
+      "description": "Guided wind-down audio + fade to black",
+      "url": "/?action=bodyscan",
+      "icons": [{ "src": "/icons/breathe.svg", "sizes": "any", "type": "image/svg+xml" }]
+    }
+  ]
+}
